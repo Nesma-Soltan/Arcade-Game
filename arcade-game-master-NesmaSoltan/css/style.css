@@ -1,0 +1,56 @@
+
+
+h1{
+    text-align:center;
+    color:#fff;
+    background-color:#258;
+    height:90px;
+    padding-top:25px;
+    margin:0;
+}
+#container{
+    align-items: center;
+}
+#score,h6{
+    font-size: 20px;
+    color: #f00;
+}
+@media only screen and (max-width:500px){
+    h1{
+        height:150px;
+        min-width: 525px;
+        text-align: center;
+    }
+    #container{
+        padding-left:20px;
+
+  }
+    #help{
+    flex: none;
+    }
+   #c {
+/*    float:none;
+*/
+width: 70%;
+  }
+
+}
+@media only screen and (min-width:750px){
+        #container{
+         padding: 10px;
+        }
+        h1{
+         height:70px;
+
+        }
+        #help{
+        display: flex;
+        padding: 10px;
+        }
+        #c {
+        float:right;
+        margin-top: -20px;
+        margin-left:5%;
+       }
+    }
+
